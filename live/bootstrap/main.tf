@@ -1,6 +1,6 @@
 # bootstrap/main.tf
 
-### Optional, you can create manually also 
+### Optional, you can create manually also for TF Backend one time creation
 provider "aws" {
   region = "ap-south-1"
 }
