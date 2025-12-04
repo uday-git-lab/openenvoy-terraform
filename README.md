@@ -1,9 +1,3 @@
-Understood. Below is a **strictly professional, audit-ready README + Justification document** with **no emojis, no casual tone**, suitable for enterprise submission.
-
-You can directly paste this into your `README.md`.
-
----
-
 # Terraform Production Infrastructure – ALB + Auto Scaling Architecture
 
 ## Project Overview
