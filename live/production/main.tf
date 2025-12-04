@@ -11,15 +11,15 @@ provider "aws" {
   region = var.aws_region
 }
 
-# terraform {
-#   backend "s3" {
-#     bucket         = "openenvoy-tf-state"
-#     key            = "openenvoy/infra.tfstate"
-#     region         = "ap-south-1"
-#     dynamodb_table = "terraform-locks"
-#     encrypt        = true
-#   }
-# }
+terraform {
+  backend "s3" {
+    bucket         = "openenvoy-tf-state"
+    key            = "openenvoy/infra.tfstate"
+    region         = "ap-south-1"
+    dynamodb_table = "terraform-locks"
+    encrypt        = true
+  }
+}
 
 #########################
 # Network (already done)
